@@ -1,0 +1,40 @@
+\chapter{Resource Requirements}
+\section{Hardware Requirements}
+Typically, a database server will require a fast CPU, sufficient memory, and fast storage. The CPU should be multi-core and have a high clock speed to handle the processing power required for a database. A minimum of 16GB of RAM is recommended, but more is needed for larger databases or more concurrent users.
+
+Storage is also important for a database, as it needs to be fast and reliable. A solid-state drive (SSD) is recommended for the best performance, as it has faster read and write speeds compared to traditional hard disk drives (HDD). Additionally, the storage should be large enough to accommodate the size of the database and the growth rate.
+
+Additionally, a database server also requires a reliable network connection, as it will be communicating with other systems and clients. A fast and stable network connection is important for ensuring that the data is transmitted quickly and reliably.
+
+Finally, for high availability and disaster recovery, a database server can be clustered with multiple servers working together to provide redundancy and failover capabilities. This can be done using hardware or software solutions.
+\section{Software Requirements} 
+The software requirements for a database management system (DBMS) include the operating system, the DBMS software itself, and any additional tools or utilities that may be needed.
+
+The operating system for a database server should be a stable and reliable platform that is well-suited for running database software. Some popular choices include Windows Server, Linux, and Unix. It's important to choose an operating system that is supported by the DBMS software you plan to use.
+
+The DBMS software itself is the core component of the database system. There are many different DBMS software options available, such as MySQL, SQL Server, Oracle, PostgreSQL, and MongoDB. It's important to choose a DBMS that is compatible with your operating system and that meets your specific needs.
+
+Additional tools or utilities that may be needed include backup and recovery software, monitoring and performance tuning tools, and data migration tools. These tools can help you manage and maintain your database, and ensure that it is running at optimal performance.
+\section{Functional Requirements}
+\subsection{Major Entities}
+\textbf{CARS}: This includes information about the cars available for rental, such as make, model, year, and current availability.\\
+\textbf{CUSTOMERS}:This includes information about the people who are renting the cars, such as name, contact information, and driver's license information.\\
+\textbf{RESERVATION}: This includes information about the reservations that have been made, including the dates and times of the rental, the vehicle that has been reserved, and the customer who made the reservation.\\
+\textbf{RENTALS}: This includes information about the actual rentals that have taken place, including the dates and times of the rental, the vehicle that was rented, the customer who rented it, and any additional charges or fees that may have been incurred.\\
+\textbf{BILLING AND PAYMENT}: This includes information about the charges for the rentals, any additional fees, and the methods of payment that are accepted.\\
+\textbf{EMPLOYEE}: This includes information about the employees of the car rental company, such as their name, contact information, and role within the company.\\
+\subsection{End User Requirements}
+\begin{enumerate}
+\item Main Goals:
+	\begin{itemize}
+	\item Our motto is to develop a software program allowing customers to easily search for and book available vehicles online or through a web application.
+	\item Hereby, The system should show customers the real-time availability of vehicles, so they can quickly and easily make a reservation.
+	\end{itemize}
+\item Flexibility:
+	\begin{itemize}
+	\item The system should offer customers a variety of rental options, such as daily, weekly, or monthly rentals, and should also allow for different pickup and drop-off locations.
+	\end{itemize}		
+\item Ease of use:
+	\begin{itemize}
+	\item The system should have a user-friendly interface that is easy to navigate and understand, making it simple for customers to find the information they need.	\end{itemize}
+\end{enumerate}
